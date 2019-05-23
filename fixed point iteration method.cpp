@@ -175,8 +175,8 @@ int main(){
 				    	result -= coeff[r] * pow(x0, power[r]);
 				    	result *= -1;
 				    //	cout<<"result regular term is: "<<result<<endl;
-						result = pow(result, (1/power[r]));
 						result /= coeff[r];
+						result = pow(result, (1/power[r]));
 					//	cout <<"The processed result is:" <<result<<endl;
 						r = n+2;
 						y = n+2;
