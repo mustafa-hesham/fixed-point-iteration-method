@@ -21,7 +21,7 @@ int main(){
 	cout<<"Please enter X0: "<<endl;
 	cin>>x0;
 	for (int i=0; i<n; i++) {
-		cout<<"Please enter coefficient number "<<i+1<<" (Enter 1 if it is a trigonometric function term)"<<endl;
+		cout<<"Please enter coefficient number "<<i+1<<endl;
 		cin>>coeff[i];
 		cout<<"Please enter power number "<<i+1<<" (Enter x if it is the power of a number, or a trigonometric function, or e for euler number):"<<endl;
 		cin>>xe;
