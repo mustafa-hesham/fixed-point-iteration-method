@@ -282,7 +282,7 @@ int main(){
 			conv[q] = apperror;
 			
 			cout <<"The g(x) is: "<<result<<endl;
-			cout <<"The relative error is: "<<apperror<<"%"<<endl;
+			cout <<"The percentage error is: "<<apperror<<"%"<<endl;
 			if (q == 0) cout<<"No apparent convergence or divergence!"<<endl;
 			if (conv[q] > conv[q-1] && q !=0) {
 			cout<<"Diverging!"<<endl;
